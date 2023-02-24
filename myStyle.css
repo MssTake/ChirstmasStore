@@ -1,0 +1,103 @@
+div {
+   background-color: darkgreen;
+   border-radius: 10px;
+   color: white;
+   padding: 10px;
+}
+
+form {
+   border-radius: 10px;
+}
+
+header {
+   margin: 30px;
+}
+
+h1, h2 {
+   text-align: center;
+}
+
+footer {
+   margin: 30px;
+   position: bottom;
+}
+
+iframe {
+   border: transparent;
+   align-items: center;
+   transition: .3s ease-in-out;
+}
+
+iframe:hover {
+   transform: scalex(1.1);
+   width: 100%;
+}
+
+img {
+   align-content: center;
+   transition: .3s ease-in-out;
+}
+
+input {
+   transition: .3s ease-in-out;
+}
+
+input:focus {
+   background-color: lightgreen;
+}
+
+li:hover {
+   border-bottom: 4px dotted gold;
+   display: inline;
+   margin: 5px;
+   transform: scale(1.25);
+   transition: .3s ease-in-out;
+}
+
+li, ul {
+   padding: 10px;
+   text-align: justify;
+   transition: .3s ease-in-out;
+}
+
+main {
+   margin: 20px;
+}
+
+nav {
+   margin: 5px;
+   padding: 10px;
+   position: relative;
+}
+
+nav:active {
+   color:red;
+}
+
+nav:hover {
+   color: green;
+}
+
+nav:visited {
+   color: silver;
+}
+
+table,
+th,
+td {
+   border: 1px white dotted;
+   border-collapse: collapse;
+   color: black;
+   margin: 20px;
+   padding: 10px;
+   transition: .3s ease-in-out;
+}
+
+td:hover {
+   transform: scale(1.25);
+}
+
+ul{
+   display: grid;
+   transition: .3s ease-in-out;
+}
